@@ -1,0 +1,85 @@
+﻿########################################
+# OS & General
+########################################
+*.DS_Store
+Thumbs.db
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+########################################
+# Node / Nuxt
+########################################
+node_modules/
+dist/
+.nuxt/
+.env
+.env.*
+!.env.example
+.cache/
+coverage/
+*.local
+*.lock
+.output/
+.server/
+.vite/
+.nitro/
+
+########################################
+# .NET / C# / ASP.NET
+########################################
+bin/
+obj/
+out/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Bb]uild/
+
+# Configuration (optional — remove if you store per-env settings)
+appsettings.*.json
+!appsettings.json
+
+# Logs & runtime
+*.pdb
+*.mdb
+*.log
+*.db
+*.sqlite
+*.sqlite3
+
+# NuGet
+*.nupkg
+*.snupkg
+**/packages/*
+.nuget/
+project.lock.json
+project.fragment.lock.json
+
+########################################
+# IDE & Tools
+########################################
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# Visual Studio (if teammates use it)
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# VS Code (optional — only if you don’t want team settings)
+# .vscode/
+
+########################################
+# Temporary & Misc
+########################################
+*.tmp
+*.bak
+*.swp
+*.swm

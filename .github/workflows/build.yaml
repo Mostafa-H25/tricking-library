@@ -19,6 +19,6 @@ jobs:
       - name: List Tricking Library Files
         run: ls TrickingLibrary.api/ -R
       - name: Check pnpm Version
-        run: pnpm -v
+        run: npm -v
 
     

@@ -18,7 +18,7 @@ jobs:
         run: dotnet build
       - name: List Tricking Library Files
         run: ls TrickingLibrary.api/ -R
-      - name: Check pnpm Version
+      - name: Check npm Version
         run: npm -v
 
     
